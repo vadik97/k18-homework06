@@ -1,0 +1,88 @@
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Arial", "Times New Roman", "sans-serif";
+	font-weight: 700;
+}
+
+p {
+	font-family: "Arial","Times New Roman","sans-serif";
+}
+
+code {
+	background-color: #ffae005c;
+	color: #ffbe00e0;
+	font-size: 15px;
+	font-weight: 700;
+}
+mark {
+	background-color: #de3100b0;
+    font-weight: 700;
+    color: #07ff1cbd;
+    font-family: "Times New Roman", "Arial", "sans-serif";
+}
+
+a {
+	color:red;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:hover {
+	color:green;
+}
+
+.Block_1 {
+	border: 1px solid #f7f7f700;
+    border-left: 5px solid #793942c7;
+    background: #9a194e82;
+    width: 800px;
+}
+
+.Block_1 span {
+	text-shadow: 3px 3px 4px, 1px 1px 3px red;
+	font-size: 20px;
+	color: #fff;
+}
+
+.Block_2 {
+	border: 1px solid #f7f7f700;
+	background: #1c5f1cbd;
+	height: 110px;
+	width: 800px;
+}
+
+.Block_2 span {
+	text-shadow: 5px 3px 6px, 2px 2px 4px green;
+	font-size: 15px;
+	color: #fff;
+}
+
+.topLeft {
+	border: 1px solid #43f7ece3;
+	border-radius: 5px 0 0 0;
+}
+
+.topRight {
+	border: 1px solid #43f7ece3;
+	border-radius: 0px 5px 0 0;
+}
+
+.bottomLeft {
+	border: 1px solid #f3ff06c9;
+	border-radius: 0 5px 0 0;
+}
+
+.bottomRight {
+	border: 1px solid #f3ff06c9;
+	border-radius: 0 0 5px 0;
+}
+
+table th {
+	background-color: #43f7ece3;
+	height: 30px;
+}
+
+table td {
+	background-color: #f3ff06c9;
+	height: 30px;
+}
